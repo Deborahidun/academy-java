@@ -58,3 +58,5 @@ public class Switch {
         scanner.close();
     }
 }
+
+//class exercise
