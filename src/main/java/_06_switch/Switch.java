@@ -1,3 +1,6 @@
+
+
+
 package _06_switch;
 
 import java.util.Scanner;
@@ -58,5 +61,12 @@ public class Switch {
         scanner.close();
     }
 }
-
+//Class work
 //class exercise
+
+
+
+
+
+
+        
