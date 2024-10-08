@@ -1,13 +1,16 @@
 package _13_abstract_class;
 
-// Main class to run the program
 public class Main {
-    public static void main(String[] args) {
-        // Create a Dog object
-        Dog myDog = new Dog();
-        
-        // Call methods on the Dog object
-        myDog.sleep();
-        myDog.sound();
-    }
+
+	public static void main(String[] args) {
+
+//		Animal myAnimal = new Animal();
+		Dog myDog = new Dog();
+		Cat myCat = new Cat();
+
+		myDog.sleep();
+		myDog.sound();
+
+	}
+
 }

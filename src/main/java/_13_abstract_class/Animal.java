@@ -1,12 +1,25 @@
 package _13_abstract_class;
 
-// Used to create something that is generic and we know we won't create an object in it
-public abstract class Animal {
-    // Abstract method that must be implemented by subclasses
-    public abstract void sound();
+abstract class Animal {
+//	Abstract Method
+	public abstract void sound();
 
-    // Concrete method that can be used by subclasses
-    public void sleep() {
-        System.out.println("Animal is sleeping");
-    }
+//	Concrete Method
+	public void sleep() {
+		System.out.println("Animal is sleeping");
+	}
+}
+
+class Dog extends Animal {
+	@Override
+	public void sound() {
+		System.out.println("Dog barks");
+	}
+}
+
+class Cat extends Animal {
+	@Override
+	public void sound() {
+		System.out.println("Cat meows");
+	}
 }
