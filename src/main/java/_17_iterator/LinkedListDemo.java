@@ -1,5 +1,6 @@
 package _17_iterator;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListDemo {
@@ -19,10 +20,13 @@ public class LinkedListDemo {
 
 		// Read
 		// System.out.println(myList);
-		// Iterator<String> iterator = myList.iterator();
-		// while (iterator.hasNext()) {
-		System.out.println(iterator.next());
-		// }
+		Iterator<String> iterator = myList.iterator();
+		while (iterator.hasNext()) {
+			if (iterator.next() == "Test1") {
+
+			}
+			System.out.println(iterator.next());
+		}
 
 		// System.out.println(myList.get(1));
 		// System.out.println(myList.element());
@@ -38,4 +42,5 @@ public class LinkedListDemo {
 		System.out.println(myList);
 
 	}
+
 }
